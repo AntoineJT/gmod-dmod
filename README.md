@@ -1,6 +1,13 @@
 # Drop Money on Death
 An old Garry's Mod addon which allows to drop money on death.
+
 The master branch version is 1.1 and cames from October 31st 2017.
+
+The 1.2 branch version is 1.2 obviously and cames from July (and not August, sorry for the mistake when committing) 2018.
+
+## Purpose
+
+Drop a certain amount of money (based on percentage) of someone when he died.
 
 ## Modifying my addon
 
