@@ -22,7 +22,7 @@ local deathMessage = "You've lost " .. dropMoneyPercentage .. "% of your wallet 
 local deathWithoutMoneyMessage = "You've lost nothing because you've nothing to lose !"
 local resetNegativeMoneyMessage = "You're wallet glitch has been removed ! Sorry for the inconvenience !"
 
---DON'T MODIFY ANYTHING BELOW THIS LINE !!
+-- DON'T MODIFY ANYTHING BELOW THIS LINE !!
 local module_prefix = "[DMOD] "
 local module_version = "1.1.0"
 
@@ -43,7 +43,7 @@ function initialization()
 	logConsole("DMOD module version: " .. module_version)
 	
 	logConsole("Loading config...")
-	--Content of the archaic loadVars function
+	-- Content of the archaic loadVars function
 	if (!isCustomizationEnabled) then
 		logConsole("Customization is not enabled !")
 		logConsole("Loading default values...")
@@ -53,11 +53,10 @@ function initialization()
 		logConsole("Customization is enabled !")
 		logConsole("DMOD will use your custom values")
 	end
-	
 end
 
 function dropMoneyOnDeath( victim, weapon, killer )
-	if ( IsValid( victim ) ) then
+	if (IsValid(victim)) then
 		local victimMoney = victim:getDarkRPVar("money")
 		
 		if (victimMoney > 0) then
@@ -79,7 +78,7 @@ function dropMoneyOnDeath( victim, weapon, killer )
 			victim:addMoney(-victimMoney)
 			victim:PrintMessage(HUD_PRINTTALK, module_prefix .. resetNegativeMoneyMessage)
 		end
-    end
+	end
 end
 
 hook.Add("PlayerDeath", "Drop some money when you die", dropMoneyOnDeath)
