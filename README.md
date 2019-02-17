@@ -1,5 +1,6 @@
 # Drop Money on Death
-An old Garry's Mod addon which allows to drop money on death
+An old Garry's Mod addon which allows to drop money on death.
+The master branch version is 1.1 and cames from October 31st 2017.
 
 # Modifying my addon
 
