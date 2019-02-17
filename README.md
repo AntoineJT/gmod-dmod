@@ -8,7 +8,9 @@ If you modify my addon, please fork it. It will indicate to me that this is usef
 
 ## License
 
-This addon is under GPLv3 so respect the terms of the license to be good.
+This addon is provided with the MIT License which means that you need to credit me for my work if you use this, if it's a modified version or not.
+If you just put my addon on your gmod server, you don't need to create some list where my pseudo or name is.
+If you modify my addon and share it, you must credit me as the author of the original addon, put the github webpage of the original addon, and credit you as the author of the derivated work based on it.
 
 # How to thank me for my work
 
